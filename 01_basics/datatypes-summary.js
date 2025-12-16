@@ -13,7 +13,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 const bigNumber = 65757222655522223334n
 
@@ -29,7 +29,7 @@ let myObj={
 
 //function 
 const myfunction= function(){
-    console.log("hello! nandini");
+    // console.log("hello! nandini");
 }
 
-console.log(typeof outsideTemp);
+console.log(typeof id);
