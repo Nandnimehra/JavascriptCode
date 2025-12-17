@@ -32,4 +32,41 @@ const myfunction= function(){
     // console.log("hello! nandini");
 }
 
-console.log(typeof id);
+// console.log(typeof id);
+
+
+
+// **************************************************
+
+// Stack (primitive), Heap (Non- Primitives)
+
+
+//stack => value copy
+let myYoutubename = "mnandani035dotcom"
+
+let anothername = myYoutubename
+anothername = "nandnicode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// heap  => refernce change in orignal value
+
+let userOne = {
+    email: "usergoogle.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nandinimehra.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
