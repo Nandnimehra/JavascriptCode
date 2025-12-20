@@ -1,3 +1,5 @@
+// controlflow
+
 // switch 
 // switch (key) {
 //     case value:
@@ -8,19 +10,40 @@
 //         break;
 // }
 
-const months = 3
+// const months = 3
+
+// switch (months) {
+//     case 1:
+//         console.log("January");  
+//         break;
+//     case 2:
+//         console.log("feb");  
+//         break;
+//     case 3:
+//         console.log("march");  
+//         break;
+//     case 4:
+//         console.log("april");  
+//         break;
+
+//     default:
+//         console.log("default cash match ");
+//         break;
+// }
+
+const months = "january"
 
 switch (months) {
-    case 1:
-        console.log("January");  
+    case "january":
+        console.log("january");  
         break;
-    case 2:
+    case "feb":
         console.log("feb");  
         break;
-    case 1:
+    case "march":
         console.log("march");  
         break;
-    case 1:
+    case "april":
         console.log("april");  
         break;
 
@@ -28,3 +51,4 @@ switch (months) {
         console.log("default cash match ");
         break;
 }
+
