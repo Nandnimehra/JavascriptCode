@@ -51,4 +51,3 @@ switch (months) {
         console.log("default cash match ");
         break;
 }
-
