@@ -59,3 +59,24 @@ if (userLoggedIn && debitCard && 2==4) {
     
 // }
 
+// Nullish Coalescing Operator (??): null undefined
+
+let val1;
+//val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = null ?? undefined
+val1 = undefined ?? 10
+val1 = undefined ?? 10 ?? 20
+
+console.log(val1);
+
+// Terniary Operator 
+
+//condition ? true : false
+
+const iceCreamPrice = 100
+iceCreamPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
+
+
+
+
