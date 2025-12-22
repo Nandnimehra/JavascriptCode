@@ -15,5 +15,3 @@ myNumbers.forEach( (num) => {
     }
 })
 //console.log(newNums);
-
-
