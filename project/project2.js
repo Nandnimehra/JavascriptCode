@@ -48,3 +48,4 @@ setInterval(function(){
   //console.log(date.toLocaleString());
   clock.innerHTML=date.toLocaleTimeString();
 }, 1000)
+
