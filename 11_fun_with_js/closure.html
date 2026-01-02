@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Closure</title>
 </head>
-<body>
+<body style="background-color: #313131;">
 </body>
 <script>
     // function init() {
@@ -19,9 +19,25 @@
 
     function outer(){
         let username = "nandini"
+        console.log(secret);
+        
+        function inner(){
+            let secret = "my123"
+            console.log("inner",username);
+            
+        }
+       
+        function innerTwo(){
+            console.log("innerTwo",username);
+            console.log(secret);
+            
+            
+        }
+        inner()
+        innerTwo()
     }
-
-    console.log(username);
+    outer()
+    console.log("TOO OUTER",username);
     
 
 </script>
